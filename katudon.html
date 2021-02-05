@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+<link rel="icon" type="image/png" href="82957739_p0_master1200.jpg">
+<!-- StyleSheet -->
+<link rel="stylesheet" media="(min-width: 640px)" href="common/styles/style_pc.css">
+<link rel="stylesheet" media="(max-width: 640px)" href="common/styles/style_mobile.css">
+
+<title>World Anime Institution</title>
+<style>
+  .color_white{
+    color: #FFFFFF;
+  }
+  .bkcolor_black{
+    background-color: #000000;
+    font-family:"serif";
+  }
+  .centering-block {
+ text-align: center;
+}
+.centering-block .centering-block-inner {
+ text-align: left;
+ display: inline-block;
+
+}
+
+</style>
+</head>
+<body class ="color_white bkcolor_black">
+  <div class="centering-block">
+   
+
+<h2>
+  カツドンのスピリチュアル相談所～あなたの今日の運勢をインディゴが占います～
+</h2>
+<p>カツドンの画像を押してね</p>
+<input id="ktdn" type="image" src="myktdn.jpg" alt="エイッ！アー！">
+<script>
+document.getElementById("ktdn").onclick = function(){
+  var rnd = Math.floor(Math.random() * 6);
+  var ktdnmkj;
+  if(rnd===0) ktdnmkj = "君はもちろんインディゴだよ（今日は幸運）";
+  if(rnd===1) ktdnmkj = "あなたのインナーチャイルド、今日も元気？（インチャが暴れるかも）";
+  if(rnd===2) ktdnmkj = "インナーチャイルド、アダルトチルドレン、機能不全家族（3種の神器、ノルマ達成）";
+  if(rnd===3) ktdnmkj = "やっちゃったよぉ～（テレビ破壊しちゃうかも）";
+  if(rnd===4) ktdnmkj = "チッ、ッせーな近所のガキが（近所のガキがうるさい一日になりそう！）";
+  if(rnd===5) ktdnmkj = "地獄のようなニート生活（天国）";
+  alert(ktdnmkj);
+  
+
+}
+</script>
+<br>
+</div>
+</body>
+</html>
